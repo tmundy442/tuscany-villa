@@ -1,0 +1,219 @@
+.page-header {
+    margin-top: 0px;
+    background-color:rgb(232, 214, 207);
+    padding-top: 3px;
+    margin-bottom: 0px;
+    text-align:center;
+}
+
+h1{
+	margin-top: 0px;
+    padding-top: 5px;
+    font-family: 'Pacifico', serif;
+    font-size: 40px;
+    letter-spacing: 18px;
+    font-weight: bold;
+}
+
+h2{
+    margin-top: -20px;
+    padding-top: 0px;
+    font-family: 'Pangolin', cursive;
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: bold;
+}
+
+.navbar-header{
+	background-color: rgb(155, 194, 255);
+}
+
+.navbar-right{
+	background-color: rgb(155, 194, 255);
+	height: 75px;
+}
+
+#headerIcon{
+    float:left;
+    font-size:40px;
+    line-height:40px;
+    color:white;
+    background-color: rgb(127, 188, 219);
+    height:60px;
+    padding-top:10px;
+}
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-md-9 {
+	height: 348px;
+	padding-right: 0px;
+}
+
+.col-md-3{
+	height: 348px;
+	padding-right: 0px;
+}
+
+
+#picOne{
+	background-image: url('tuscany-villas-sant-anna.jpg');
+    background-size:cover;
+    height:348px;
+	
+}
+#picOne-A{
+    background-color: rgb(73, 81, 81);
+    opacity: 0.6;
+    filter:alpha(opacity=60);
+    width: 400px;
+    margin: 150px 300px 200px 250px;
+    float: none !important;
+
+}
+
+#picTwo{
+	background-image: url('Versilia.jpg');
+    background-size: cover;
+    height: 348px;
+    width: 330px;
+    padding-right: 0px;
+}
+
+#picTwo-A{
+    background-color: white;
+    opacity: 0.6;
+    filter:alpha(opacity=60);
+    margin: 130px 135px 100px 100px;
+    float: none !important;
+}
+
+#picThree{
+	font-size: 20px;
+    font-weight: bold;
+    padding-top: 60px;
+    color: rgb(24, 216, 255);
+}
+
+#picThree-A{
+	font-size: 15px;
+
+}
+
+#picEight{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#picEight-A{
+	font-size: 10px;
+    text-align: center;
+
+}
+
+#picNine{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#picNine-A{
+    font-size: 10px;
+    text-align: center;
+
+}
+#picTen{
+	font-size: 20px;
+    font-weight: bold;
+    padding-top: 60px;
+}
+
+#picTen-A{
+	font-size: 10px;
+    text-align: center;
+}
+
+#picTwelve{
+	font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#picTwelve-A{
+	font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Varela Round';
+}
+
+#picTwelve-B{
+	font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#picTwelve-C{
+	font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Varela Round';
+}
+
+#picThirteen{
+	font-size: 15px;
+    text-align: center;
+    padding-top: 60px;
+    font-weight: bold;
+}
+
+#reviewButton{
+	position:absolute;
+    transition: .5s ease;
+    top: 50%;
+    left: 50%;
+}
+
+footer{
+	background-color: rgb(232, 214, 207);
+	width: 100%;
+}
+
+#footerIcon{
+    float:left;
+    font-size:40px;
+    line-height:30px;
+    color:white;
+    background-color:gray;
+    height:50px;
+    padding-top:10px;
+}
+
+#footerLeft{
+    font-size: 10px;
+    text-align: left;
+}
+#footerRight{
+	font-size: 10px;
+    text-align: right;
+}
